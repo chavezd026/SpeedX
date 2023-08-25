@@ -1,0 +1,81 @@
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars ms-1"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                <li class="nav-item"><a class="nav-link" routerLink="/homepage">Home</a></li>
+                <li class="nav-item"><a class="nav-link" routerLink="/services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" routerLink="/cart" >Cart</a></li>
+                <li class="nav-item"><a class="nav-link" routerLink=''>Log Out</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div id="nothing"></div>
+<!-- new table  -->
+<div class="newtable">
+    <ul class="responsive-table">
+      <li class="table-header">
+        <div class="col col-1">Sl No</div>
+        <div class="col col-2">Category</div>
+        <div class="col col-3">Title</div>
+        <div class="col col-4">cost</div>
+        <div class="col col-5">Remove</div>
+      </li>
+      <li class="table-row" *ngFor="let service of cartitem, let i=index">
+        <div class="col col-1" >{{i+1}}</div>
+        <div class="col col-2" >{{service.category}}</div>
+        <div class="col col-3" >{{service.title}}</div>
+        <div class="col col-4" >{{service.price}}/-</div>
+        <div class="col col-5"><button class="bd" (click)="removecart(service)">remove</button></div>
+        
+      </li>
+    </ul>
+</div>
+<div class="note">
+    <p><b>Note :</b> Above cost are indicative, actual service cost may vary according to your vehicle model.The actual service cost will be as agreed between you and the dealer after repairs carried out on your vehicle.</p>
+</div>
+<div class="m-5" align="center">
+    <button class="bs" routerLink="/services">Add more</button>
+    <button class="bb" data-bs-toggle="modal" data-bs-target="#exampleModal">Book Now</button>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <form [formGroup]="bookingForm">
+            <hr>
+            <h5>Booking services :</h5>
+            <div *ngFor="let service of cartitem,let i=index">
+                <label>{{service.category}} : </label>
+                <label>-&nbsp;{{service.title}}</label>
+            </div>
+            <br>
+            <hr>
+            <h5>Fill the form for booking</h5>
+            <input formControlName="ownername" type="text" placeholder="Owner name" class="form-control mb-2" >
+            <div class="validation" *ngIf="this.bookingForm.get('ownername')?.errors && this.bookingForm.get('ownername')?.touched" style="color: red;">required</div>
+            <input formControlName="mobno" type="text" placeholder="Mobile number" class="form-control mb-2">
+            <div class="validation" *ngIf="this.bookingForm.get('mobno')?.errors && this.bookingForm.get('mobno')?.touched" style="color: red;">required</div>
+            <input formControlName="vehname" type="text" placeholder="Vehicle name" class="form-control mb-2">
+            <div class="validation" *ngIf="this.bookingForm.get('vehname')?.errors && this.bookingForm.get('vehname')?.touched" style="color: red;">required</div>
+            <input formControlName="modname" type="text" placeholder="Model name" class="form-control mb-2">
+            <div class="validation" *ngIf="this.bookingForm.get('modname')?.errors && this.bookingForm.get('modname')?.touched" style="color: red;">required</div>
+            <input formControlName="vehregno" type="text" placeholder="Vehicle number" class="form-control mb-2">
+            <div class="validation" *ngIf="this.bookingForm.get('vehregno')?.errors && this.bookingForm.get('vehregno')?.touched" style="color: red;">required</div>
+            <textarea formControlName="address"  type="text" placeholder="Address" class="form-control mb-2"></textarea>
+            <div class="validation" *ngIf="this.bookingForm.get('address')?.errors && this.bookingForm.get('address')?.touched" style="color: red;">required</div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="cl" data-bs-dismiss="modal">Cancel</button>
+          <button type="button" class="bb" data-bs-dismiss="modal" (click)="Booking()">Book</button>
+        </div>
+      </div>
+    </div>
+</div>

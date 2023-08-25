@@ -1,0 +1,29 @@
+<!-- new -->
+
+<div class="registrationpage">
+    <div class="reg" id="container" >
+        <div class="form-container sign-up-container">
+            <form action="#" [formGroup]="registerForm">
+                <h1>Sign Up</h1>
+                <br>
+                <input formControlName="email" type="text" placeholder="Email id" id="email">
+                <div class="validation" *ngIf="this.registerForm.get('email')?.errors && this.registerForm.get('email')?.touched" style="color: red;">Please provide a valid email address</div>
+                <input formControlName="mobno" type="text" placeholder="Mobile Number" id="mobileno">
+                <div class="validation" *ngIf="this.registerForm.get('mobno')?.errors && this.registerForm.get('mobno')?.touched" style="color: red;">Enter 10 digit Mobile Number</div>
+                <input formControlName="pswd" type="password" placeholder="Password" id="password">
+                <div class="validation" *ngIf="this.registerForm.get('pswd')?.errors && this.registerForm.get('pswd')?.touched" style="color: red;">Password must contain 6 characters</div>
+                <br>
+                <button (click)="register()">Register</button>
+            </form>
+        </div>
+        <div class="log-container">
+            <div class="log">
+                <div class="log-panel log-right">
+                    <h5>Back to login</h5>
+                    <br>
+                    <button class="ghost" id="signUp" (click)="login()">Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

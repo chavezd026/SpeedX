@@ -1,0 +1,155 @@
+[
+    {
+        "id": 1,
+        "title": "Complete Car Service",
+        "header":"Popular",
+        "price": 7499,
+        "description": "The most common components replaced in regular car service are the engine oil, coolant, oil filter, and air filter. Along with this, we need to service the brake pads, brake disc, suspension, clutch. Our expert technicians will assess the entire car and provide you with a detailed report of the car's condition.",
+        "category": "Periodic Service",
+        "image": "https://i.postimg.cc/V678t0BF/s1.jpg",
+        "time": "12 hours",
+        "rating":"4.5 Rating"
+    },
+    {
+        "id": 2,
+        "title": "Full Body Painting",
+        "header":"Popular",
+        "price": 22499,
+        "description": "We provide premium quality paint , 4 layers of painting , 2 years warranty on paint , experienced painters. We believe in transparency and for us, you are our top priority, hence, any service or repair recommended post inspection will start only after your approval.",
+        "category": "Body Repair",
+        "image": "https://i.postimg.cc/W1LLkh4L/s2.jpg",
+        "time": "48 hours",
+        "rating":"4.5 Rating"
+    },
+    {
+        "id": 3,
+        "title": "Car Not Starting Inspection",
+        "header":"Popular",
+        "price": 499,
+        "description": "Hopefully you never experience the scenario where your car doesn't start, but if your car isn't starting and you need some assistance, Pitstop mechanics will come to you to pick up your car and will take it to the nearest Pitstop certified garage, free of cost.",
+        "category": "Inspection and Diagonastics",
+        "image": "https://i.postimg.cc/NFLzrwXz/s3.jpg",
+        "time": "60 mins",
+        "rating":"4.5 Rating"
+    },
+    {
+        "id": 4,
+        "title": "Standard AC Service",
+        "header":"Popular",
+        "price": 1499,
+        "description": "Car AC not working properly can cause total discomfort, especially in summers or when the humidity is high. Moreover, a properly working car AC means better air quality inside your car. Get your car AC serviced today.",
+        "category": "AC Services",
+        "image": "https://i.postimg.cc/D0yKjDXr/s4.jpg",
+        "time": "4 hours",
+        "rating":"4.5 Rating"
+    },
+    {
+        "id": 5,
+        "title": "Battery Replacement",
+        "header":"Popular",
+        "price": 4905,
+        "description": "It is one of the components that inevitably needs to be replaced every 4 or 5 years .Knowing when to replace your car battery can be tricky. Book a Battery Replacement service with Pitstop to ensure your car runs smoothly and without any problems.",
+        "category": "Battery Care",
+        "image": "https://i.postimg.cc/DZsqpvGG/s5.jpg",
+        "time": "3 hours",
+        "rating":"4.5 Rating"
+    },
+    {
+        "id": 6,
+        "title": "Complete Car Spa",
+        "header":"Popular",
+        "price": 7499,
+        "description": "Complete car spa is the process of thoroughly cleaning, enhancing and protecting all parts of a vehicle, in order to keep it looking its very best and retain much of its value.A complete car spa differs from your average car clean because of the levels of involvement, the time spent, the tools & products used.",
+        "category": "Cleaning and Protection",
+        "image": "https://i.postimg.cc/NjsvgLfg/s6.jpg",
+        "time": "8 hours",
+        "rating":"4.5 Rating"
+    },
+    {
+        "id": 7,
+        "title": "Clutch Set Replacement",
+        "header":"Popular",
+        "price": 4626,
+        "description": "In a manual transmission, every start, gear change and stopping of the car involves engaging and disengaging the clutch. A clutch set replacement usually involves changing the clutch disc and pressure plate & releaser bearing. If other parts of the clutch have to be replaced, the technician will check and suggest.",
+        "category": "Brake, Clutch and Suspension",
+        "image": "https://i.postimg.cc/Y9qvYt3k/s7.jpg",
+        "time": "12 hours",
+        "rating":"4.5 Rating"
+    },
+    {
+        "id": 8,
+        "title": "Others/Don't Know-Inspection",
+        "header":"Popular",
+        "price": 499,
+        "description": "If something goes wrong with your car and you don't know much about car repair and need some assistance, SpeedX mechanics will come to you to pick up your car and will take it to the nearest Pitstop certified garage, free of cost.",
+        "category": "Inspection and Diagonastics",
+        "image": "https://i.postimg.cc/CxcdGzv1/s8.jpg",
+        "time": "1 hours",
+        "rating":"4.5 Rating"
+    },
+    {
+        "id": 9,
+        "title": "Oil Change Service",
+        "header":"Popular",
+        "price": 1499,
+        "description": "The oil filter ensures no contamination in the circulated oil. These tiny contaminants are capable of damaging the internal components of the engine. So make sure you change your engine oil filter every time you replace engine oil.",
+        "category": "Periodic Services",
+        "image": "https://i.postimg.cc/BnjtCJRB/s9.jpg",
+        "time": "45 mins",
+        "rating":"4.5 Rating"
+    },
+    {
+        "id": 10,
+        "title": "Ceramic Coating",
+        "header":"Popular",
+        "price": 13499,
+        "description": "In short a ceramic coat provides additional protection to a car's exterior and helps it keep like-new with minimal maintenance. It is applied by hand usually and doesn't come off by applying any chemicals, it can only be removed by abrasion.This is achieved by making the vehicle surface more resilient and easier to clean.",
+        "category": "Cleaning and Protection",
+        "image": "https://i.postimg.cc/h4dP3CGV/s10.jpg",
+        "time": "42 hours",
+        "rating":"4.5 Rating"
+    },
+    {
+        "id": 11,
+        "title": "Front & Rear Windshield Replacement",
+        "header":"Popular",
+        "price": 5499,
+        "description": "A car's windshield is not considered important by many and only a few give any attention to it. Firstly, it helps the car with aerodynamics and gives it an aesthetic appeal.What people don't understand is that it serves more than just giving it an aesthetic appeal.",
+        "category": "Windshields, Glasses And Lights",
+        "image": "https://i.postimg.cc/L5nPrjnn/s11.jpg",
+        "time": "3hours",
+        "rating":"4.5 Rating"
+    },
+    {
+        "id": 12,
+        "title": "Clutch Set Replacement",
+        "header":"Popular",
+        "price": 499,
+        "description": "Our skilled technicians will properly diagnose and assess the issue. Furthermore, a full car inspection will be included as part of this service. We will also provide a cost and parts breakdown to you to ensure you understand what the problem is, how it will be fixed, and how much it will cost.",
+        "category": "Brake, Clutch and Suspension",
+        "image": "https://i.postimg.cc/SNQC92qX/s12.jpg",
+        "time": "2 hours",
+        "rating":"4.5 Rating"
+    },
+    {
+        "id": 12,
+        "title": "Clutch Set Replacement",
+        "header":"Popular",
+        "price": 499,
+        "description": "Our skilled technicians will properly diagnose and assess the issue. Furthermore, a full car inspection will be included as part of this service. We will also provide a cost and parts breakdown to you to ensure you understand what the problem is, how it will be fixed, and how much it will cost.",
+        "category": "Brake, Clutch and Suspension",
+        "image": "https://i.postimg.cc/SNQC92qX/s12.jpg",
+        "time": "2 hours",
+        "rating":"4.5 Rating"
+    },
+    {
+        "id": 12,
+        "title": "Clutch Set Replacement",
+        "price": 499,
+        "description": "Our skilled technicians will properly diagnose and assess the issue. Furthermore, a full car inspection will be included as part of this service. We will also provide a cost and parts breakdown to you to ensure you understand what the problem is, how it will be fixed, and how much it will cost.",
+        "category": "Brake, Clutch and Suspension",
+        "image": "https://i.postimg.cc/SNQC92qX/s12.jpg",
+        "time": "2 hours",
+        "rating":"4.5 Rating"
+    }
+]

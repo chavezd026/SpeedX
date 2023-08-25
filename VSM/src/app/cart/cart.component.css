@@ -1,0 +1,174 @@
+nav{
+    background-color: rgb(255, 51, 51);
+    height: 100px;
+    backdrop-filter: blur(10px);
+}
+a{
+    color: aliceblue;
+}
+a:hover{
+    color: yellow;
+}
+#nothing{
+    height: 100px;
+}
+
+.validation{
+    font-size: 12px;
+}
+
+/* new table  */
+
+.newtable{
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-right: 25px;
+}
+h2 {
+    font-size: 26px;
+    margin: 20px 0;
+    text-align: center;
+    
+}
+.newtable li{
+    border-radius: 3px;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+} 
+.table-header {
+      background-color: #95A5A6;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      text-align: center;
+}
+.table-row {
+      background-color: #ffffff;
+      box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+      text-align: center;
+}
+.col-1 {
+      flex-basis: 5%;
+}
+.col-2 {
+      flex-basis: 30%;
+}
+.col-3 {
+      flex-basis: 20%;
+}
+.col-4 {
+      flex-basis: 10%;
+}
+.col-5 {
+    flex-basis: 20%;
+}
+    
+@media all and (max-width: 767px) {
+.table-header {
+    display: none;
+}
+.newtable li{
+    display: block;
+}
+.col {
+    flex-basis: 100%;
+}
+.col{
+    display: flex;
+    padding: 10px 0;
+    
+   }
+.col :before {
+    color: #6C7A89;
+    padding-right: 10px;
+    content: attr(data-label);
+    flex-basis: 50%;
+    text-align: right;
+    }
+}
+
+.bb{
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color:rgb(54, 255, 51);
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+.bs{
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color:rgb(61, 51, 255);
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+.bd{
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color:rgb(255, 51, 51);
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+.cl{
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color:rgb(255, 51, 51);
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+.bd:active {
+	transform: scale(0.95);
+}
+.bs:active {
+	transform: scale(0.95);
+}
+.bb:active {
+	transform: scale(0.95);
+}
+.cl:active {
+	transform: scale(0.95);
+}
+.note{
+    margin-left: 15%;
+    width: 70%;
+    height: 70px;
+    padding: 10px;
+    background-color: rgb(183, 255, 255);
+    text-align: center;
+    border-radius: 15px;
+}
+.modal{
+    background: url("https://cdn.dribbble.com/users/722246/screenshots/2737322/find-_-book-meeting-rooms.gif");
+}
+.modal-content{
+    border-radius: 12px;
+    background-color: rgb(255, 252, 248);
+}
+input{
+    height: 40px;
+}
+textarea{
+    height: 110px;
+}

@@ -1,0 +1,231 @@
+nav{
+    background-color: rgb(255, 51, 51);
+    height: 100px;
+    backdrop-filter: blur(10px);
+}
+a{
+    color: aliceblue;
+}
+a:hover{
+    color: yellow;
+}
+.bk{
+border-radius: 10px;
+border: 2px solid white;
+background-color:rgb(255, 51, 51);
+color: #FFFFFF;
+font-size: 12px;
+font-weight: bold;
+padding: 12px 45px;
+letter-spacing: 1px;
+text-transform: uppercase;
+transition: transform 80ms ease-in;
+}
+.corouselsection{
+    margin-top: 5px;
+}
+.footer{
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.carousel-inner img{
+    
+    width: 600px;
+}
+.carousel-item{
+    text-align: center;
+}
+.bttn{
+    background-color: rgb(199, 201, 49);
+}
+#carouselExampleCaptions{
+    align-items: center;
+}
+.navtop{
+    height: 45px;
+}
+.why{
+    padding: 100px;
+    height: 500px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+.w2{
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* cards  */
+.cardserviceheader{
+    text-align: center;
+    height: 20px;
+
+}
+.cards {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    background: #ececec;
+    align-items: center;   
+    font-family: sans-serif;
+    background-color: #ffffff;
+    margin-top: 35px;
+}
+.cards .card {
+    position: relative;
+    border-radius: 10px;
+    text-align: center;
+}
+.cards .card .icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    transition: 0.7s;
+    z-index: 1;
+}
+.cards .card:nth-child(1) .icon {
+    background: #ffffff;
+}
+.cards .card:nth-child(2) .icon {
+    background: #ffffff;
+}
+.cards .card:nth-child(3) .icon {
+    background: #ffffff;
+}
+.cards .card .icon .fa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    transition: 0.7s;
+    color: #fff;
+}
+i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    transition: 0.7s;
+    color: #fff;
+}
+.cards .card .face {
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
+}
+.cards .card .face.face1 {
+    position: relative;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+}
+.cards .card:hover .face.face1{
+    background: #ffffff;
+    transform: translateY(0px);
+}
+
+.cards .card .face.face1 .content {
+    opacity: 1;
+    transition: 0.5s;
+}
+.cards .card:hover .face.face1 .content {
+    opacity: 1;
+}
+.cards .card .face.face1 .content i{
+    max-width: 100px;
+}
+.cards .card .face.face2 {
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(255, 255, 255, 0.8);
+    transform: translateY(-100px);
+}
+.cards .card:hover .face.face2{
+    transform: translateY(0);
+}
+.cards .card .face.face2 .content p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #ffffff;
+}
+.cards .card .face.face2 .content h3 {
+    margin: 0 0 10px 0;
+    padding: 0;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    color: #ffffff;
+} 
+.cards a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.icon img{
+    width: 60%;
+    padding-top: 10px;
+}
+.hmbg{
+    margin-top: 40px;
+    text-align: center;
+}
+.bg{
+    top: 50px;
+}
+.bg img{
+    width: 600px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.col{
+    display: flex;
+    justify-content: space-around;
+}
+.col img{
+    width: 180px;
+}
+#contact{
+    background: url(../../assets/contact.jpg);
+    padding-top: 20px;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+#message{
+    height: 160px;
+}
+.bc{
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color:rgb(255, 51, 51);
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+.bc:active {
+	transform: scale(0.95);
+}

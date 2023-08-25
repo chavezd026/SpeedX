@@ -1,0 +1,27 @@
+<!-- new -->
+
+<div class="loginpage">
+    <div class="lgn" id="container" >
+        <div class="form-container sign-in-container">
+            <form action="#" [formGroup]="loginForm">
+                <h1>Login</h1>
+                <br>
+                <input formControlName="email" type="text" placeholder="Email id" id="username">
+                <div class="validation" *ngIf="this.loginForm.get('email')?.errors && this.loginForm.get('email')?.touched" style="color: red;">Enter valid email</div>
+                <input formControlName="pswd" type="password" placeholder="Password" id="password">
+                <div class="validation" *ngIf="this.loginForm.get('pswd')?.errors && this.loginForm.get('pswd')?.touched" style="color: red;">Enter correct password</div>
+                <a href="#">Forgot your password?</a>
+                <button (click)="login()">Login</button>
+            </form>
+        </div>
+        <div class="sign-up-container">
+            <div class="sign-up">
+                <div class="sign-up-panel sign-up-right">
+                    <h1>Hello, Friend!</h1>
+                    <p>Enter your personal details and start journey with us</p>
+                    <button class="ghost" id="signUp" (click)="register()">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
